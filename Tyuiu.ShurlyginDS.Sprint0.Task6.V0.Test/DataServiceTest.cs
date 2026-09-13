@@ -16,7 +16,7 @@ namespace Tyuiu.ShurlyginDS.Sprint0.Task6.V0.Test
         {
             var numbers = new int[] { 1, 2, 3, 4, 5 };
             var res = DataService.SubtractionArray(numbers);
-            Assert.AreEqual(-15, res)
+            Assert.AreEqual(-15, res);
         }
         public void CheckMultiplicationArrayValid()
         {
